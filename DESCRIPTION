@@ -10,3 +10,5 @@ Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.3
 URL: https://github.com/MeviaTjandra/ohwhaley
 BugReports: https://github.com/MeviaTjandra/ohwhaley/issues
+Imports: 
+    magrittr
