@@ -1,0 +1,45 @@
+---
+title: "ohwhaley"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{ohwhaley}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+ohwhaley
+
+<!-- badges: start -->
+
+<!-- badges: end -->
+
+The goal of ohwhaley is to cheer you up! The ohwhaley will summon a whale for you with cute and uplifting phrases! Phrases can be randomly generated or customised.
+
+```{r setup}
+library(ohwhaley)
+```
+
+## Installation
+
+You can install the development version of ohwhaley from [GitHub](https://github.com/) with:
+
+``` r
+# install.packages("pak")
+pak::pak("MeviaTjandra/ohwhaley")
+```
+
+## Example
+
+This is a basic example which shows you how to solve a common problem:
+
+```{r example}
+library(ohwhaley)
+say("You are awesome!")
+```
